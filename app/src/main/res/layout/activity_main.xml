@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E4D7D7"
+    android:layout_gravity="start"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question and Answer"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#C32F01"
+        android:textSize="30dp"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Select your favourite Coffee and Country "
+        android:textColor="#C32F01"
+        android:textSize="18dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+    </TextView>
+
+    <Spinner
+        android:id="@+id/CountrySpinner"
+        android:theme="@style/mySpinnerItemStyle"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+    <Spinner
+        android:id="@+id/CoffeeSpinner"
+        android:theme="@style/mySpinnerItemStyle"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+<Button
+    android:id="@+id/SubmitBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="40dp"
+    android:text="Show Result"
+    android:background="#C32F01"
+    >
+</Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Selected Coffee and Country are : "
+        android:textColor="#C32F01"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/CountryAndCoffeeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+    </TextView>
+
+</LinearLayout>

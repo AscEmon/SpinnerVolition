@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SpinnerVolition</string>
+    <string-array name="Country">
+        <item>"America"</item>
+        <item>"Bangladesh"</item>
+        <item>"Canada"</item>
+        <item>"Denmark"</item>
+        <item>"England"</item>
+        <item>"France"</item>
+        <item>"Ghana"</item>
+    </string-array>
+    <string-array name="Coffee">
+        <item>"Nescafe Extrafort"</item>
+        <item>"Nescafe Classic"</item>
+        <item>"David of"</item>
+        <item>"Espresso"</item>
+        <item>"Cold brew"</item>
+        <item>"Latte"</item>
+        <item>"Hot Chocolate"</item>
+    </string-array>
+</resources>
